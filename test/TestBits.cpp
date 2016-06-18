@@ -1,4 +1,4 @@
-#include <cut/cut.hpp"
+#include <cut/cut.hpp>
 #include <cub/algo/bits.h>
 
 USING_HAMCREST_NS

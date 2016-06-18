@@ -1,4 +1,4 @@
-#include <cut/cut.hpp"
+#include <cut/cut.hpp>
 #include <cub/mem/LinkedAllocator.h>
 #include <cub/ctnr/array/ArraySize.h>
 

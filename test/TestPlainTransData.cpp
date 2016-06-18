@@ -1,4 +1,4 @@
-#include <cut/cut.hpp"
+#include <cut/cut.hpp>
 #include <cub/mem/PlainTransData.h>
 
 USING_HAMCREST_NS

@@ -1,4 +1,4 @@
-#include <cut/cut.hpp"
+#include <cut/cut.hpp>
 #include <cub/algo/bound.h>
 #include <cub/ctnr/array/ArraySize.h>
 

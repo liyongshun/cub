@@ -1,4 +1,4 @@
-#include <cut/cut.hpp"
+#include <cut/cut.hpp>
 #include <cub/dci/Role.h>
 #include <cub/base/BaseTypes.h>
 #include <cub/base/Keywords.h>

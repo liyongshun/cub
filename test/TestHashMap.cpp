@@ -1,4 +1,4 @@
-#include <cut/cut.hpp"
+#include <cut/cut.hpp>
 #include <cub/ctnr/map/HashMap.h>
 #include <cub/base/Keywords.h>
 #include <string>

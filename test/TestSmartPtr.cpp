@@ -1,4 +1,4 @@
-#include <cut/cut.hpp"
+#include <cut/cut.hpp>
 #include <cub/mem/SharedObject.h>
 #include <cub/mem/SmartPtr.h>
 #include <cub/base/Keywords.h>

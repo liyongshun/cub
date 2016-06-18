@@ -1,4 +1,4 @@
-#include <cut/cut.hpp"
+#include <cut/cut.hpp>
 #include <cub/mem/ObjectAllocator.h>
 #include <cub/algo/loop.h>
 

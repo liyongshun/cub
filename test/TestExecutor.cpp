@@ -1,4 +1,4 @@
-#include <cut/cut.hpp"
+#include <cut/cut.hpp>
 #include <cub/sched/Executor.h>
 
 USING_HAMCREST_NS

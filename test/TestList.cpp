@@ -1,4 +1,4 @@
-#include <cut/cut.hpp"
+#include <cut/cut.hpp>
 #include <cub/ctnr/list/List.h>
 #include <cub/ctnr/list/ListElem.h>
 #include <cub/base/NullPtr.h>

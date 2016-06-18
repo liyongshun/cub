@@ -1,4 +1,4 @@
-#include <cut/cut.hpp"
+#include <cut/cut.hpp>
 #include <cub/ctnr/number/RingNumber.h>
 
 USING_HAMCREST_NS

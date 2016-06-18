@@ -1,4 +1,4 @@
-#include <cut/cut.hpp"
+#include <cut/cut.hpp>
 #include <cub/algo/loop.h>
 #include <cub/base/Keywords.h>
 #include <cub/gof/Singleton.h>

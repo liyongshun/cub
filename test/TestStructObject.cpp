@@ -1,4 +1,4 @@
-#include <cut/cut.hpp"
+#include <cut/cut.hpp>
 #include <cub/mem/StructObject.h>
 #include <cub/base/BaseTypes.h>
 
