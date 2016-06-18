@@ -26,15 +26,15 @@ make
 以liux系统为例，如果编译通过，会产生 “cub/build/src/libCUB.a”， 这是需要依赖的CUB静态库。最好将CUB的头文件和libcub.a拷贝到一个公共的地方，让所有项目都可以方便的依赖。例如在“/home/shared"下创建cub目录，将cub源码下的incude目录拷贝到cub目录下，然后在”home/shared/cub“目录下创建lib目录，将libcub.a拷贝进去。最后，目录结构如下：
 
 ~~~bash
-/home/shared/CUB
-                ├── include
-                │    └── cub
-                │          │── base
-                │          │── dci
-                │          │── ctnr
-                │          └── ...
-                └── lib
-                     └── libcub.a
+/home/shared/cub
+            ├── include
+            │    └── cub
+            │          │── base
+            │          │── dci
+            │          │── ctnr
+            │          └── ...
+            └── lib
+                 └── libcub.a
 ~~~
 
 如果某项目需要依赖CUB，修改该项目的构建脚本，在头文件依赖中增加 ”/home/shared/cub/include“， 在链接依赖中增加静态库目录 ”/home/shared/cub/lib“， 并让其和CUB进行链接。
