@@ -1,7 +1,7 @@
 #include <cut/cut.hpp>
 #include <cub/base/Keywords.h>
 
-USING_HAMCREST_NS
+USING_CUM_NS
 
 namespace
 {

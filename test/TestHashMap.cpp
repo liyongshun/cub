@@ -3,7 +3,7 @@
 #include <cub/base/Keywords.h>
 #include <string>
 
-USING_HAMCREST_NS
+USING_CUM_NS
 USING_CUB_NS
 
 namespace

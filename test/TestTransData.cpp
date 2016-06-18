@@ -2,7 +2,7 @@
 #include <cub/mem/TransData.h>
 #include <stdlib.h>
 
-USING_HAMCREST_NS
+USING_CUM_NS
 USING_CUB_NS
 
 namespace

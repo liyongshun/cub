@@ -2,7 +2,7 @@
 #include <cub/mem/StructObject.h>
 #include <cub/base/BaseTypes.h>
 
-USING_HAMCREST_NS
+USING_CUM_NS
 USING_CUB_NS
 
 namespace

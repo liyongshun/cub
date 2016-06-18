@@ -2,7 +2,7 @@
 #include <cub/mem/LinkedAllocator.h>
 #include <cub/ctnr/array/ArraySize.h>
 
-USING_HAMCREST_NS
+USING_CUM_NS
 USING_CUB_NS
 
 namespace

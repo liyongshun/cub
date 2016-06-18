@@ -3,7 +3,7 @@
 #include <cub/ctnr/list/ListElem.h>
 #include <cub/base/NullPtr.h>
 
-USING_HAMCREST_NS
+USING_CUM_NS
 USING_CUB_NS
 
 namespace

@@ -5,7 +5,7 @@
 #include <cub/base/NullPtr.h>
 #include <cub/gof/State.h>
 
-USING_HAMCREST_NS
+USING_CUM_NS
 USING_CUB_NS
 
 // Assume exit a singing robot:

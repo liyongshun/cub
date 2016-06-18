@@ -3,7 +3,7 @@
 #include <cub/base/StaticAssert.h>
 #include <type_traits>
 
-USING_HAMCREST_NS
+USING_CUM_NS
 
 namespace
 {

@@ -2,7 +2,7 @@
 #include <cub/mem/ObjectAllocator.h>
 #include <cub/algo/loop.h>
 
-USING_HAMCREST_NS
+USING_CUM_NS
 USING_CUB_NS
 
 namespace
