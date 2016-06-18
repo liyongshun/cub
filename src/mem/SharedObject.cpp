@@ -1,4 +1,4 @@
-#include "cub/mem/SharedObject.h"
+#include <cub/mem/SharedObject.h>
 
 CUB_NS_BEGIN
 

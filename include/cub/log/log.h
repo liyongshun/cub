@@ -1,7 +1,7 @@
 #ifndef H38247538_297F_4A80_94D3_8A289788461B
 #define H38247538_297F_4A80_94D3_8A289788461B
 
-#include "cub/cub.h"
+#include <cub/cub.h>
 
 CUB_NS_BEGIN
 

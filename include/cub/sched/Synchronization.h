@@ -1,7 +1,7 @@
 #ifndef H671141B2_B247_440B_8E83_476558110FE5
 #define H671141B2_B247_440B_8E83_476558110FE5
 
-#include "cub/cub.h"
+#include <cub/cub.h>
 #include <mutex>
 
 CUB_NS_BEGIN

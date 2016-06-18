@@ -1,8 +1,8 @@
 #ifndef HC8777C2D_A6D2_4569_B639_4B3B68B935C6
 #define HC8777C2D_A6D2_4569_B639_4B3B68B935C6
 
-#include "cub/cub.h"
-#include "cub/base/BaseTypes.h"
+#include <cub/cub.h>
+#include <cub/base/BaseTypes.h>
 
 CUB_NS_BEGIN
 

@@ -1,8 +1,8 @@
 #ifndef HC723AA1A_FCCD_45CE_A091_FC328E700922
 #define HC723AA1A_FCCD_45CE_A091_FC328E700922
 
-#include "cub/base/Keywords.h"
-#include "cub/gof/Singleton.h"
+#include <cub/base/Keywords.h>
+#include <cub/gof/Singleton.h>
 
 #define __USING_GOF_STATE struct GofState;      \
                           GofState *state

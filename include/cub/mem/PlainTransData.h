@@ -1,7 +1,7 @@
 #ifndef CUB_MEMORY_PLAIN_TRANS_DATA_H
 #define CUB_MEMORY_PLAIN_TRANS_DATA_H
 
-#include "cub/mem/TransData.h"
+#include <cub/mem/TransData.h>
 #include <memory.h>
 
 CUB_NS_BEGIN

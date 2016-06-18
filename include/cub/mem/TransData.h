@@ -1,9 +1,9 @@
 #ifndef CUB_MEMORY_TRANS_DATA_H
 #define CUB_MEMORY_TRANS_DATA_H
 
-#include "cub/base/Status.h"
-#include "cub/base/Uncloneable.h"
-#include "cub/base/Assertions.h"
+#include <cub/base/Status.h>
+#include <cub/base/Uncloneable.h>
+#include <cub/base/Assertions.h>
 
 CUB_NS_BEGIN
 

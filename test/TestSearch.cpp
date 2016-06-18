@@ -1,6 +1,6 @@
-#include "magellan/magellan.hpp"
-#include "cub/algo/search.h"
-#include "cub/ctnr/array/ArraySize.h"
+#include <cut/cut.hpp"
+#include <cub/algo/search.h>
+#include <cub/ctnr/array/ArraySize.h>
 
 USING_HAMCREST_NS
 USING_CUB_NS

@@ -1,5 +1,5 @@
-#include "magellan/magellan.hpp"
-#include "cub/mem/AutoMsg.h"
+#include <cut/cut.hpp"
+#include <cub/mem/AutoMsg.h>
 
 USING_HAMCREST_NS
 USING_CUB_NS

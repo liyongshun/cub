@@ -1,6 +1,6 @@
-#include "magellan/magellan.hpp"
-#include "cub/mem/StructObject.h"
-#include "cub/base/BaseTypes.h"
+#include <cut/cut.hpp"
+#include <cub/mem/StructObject.h>
+#include <cub/base/BaseTypes.h>
 
 USING_HAMCREST_NS
 USING_CUB_NS

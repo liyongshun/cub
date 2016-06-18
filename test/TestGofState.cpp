@@ -1,9 +1,9 @@
-#include "magellan/magellan.hpp"
-#include "cub/algo/loop.h"
-#include "cub/base/Keywords.h"
-#include "cub/gof/Singleton.h"
-#include "cub/base/NullPtr.h"
-#include "cub/gof/State.h"
+#include <cut/cut.hpp"
+#include <cub/algo/loop.h>
+#include <cub/base/Keywords.h>
+#include <cub/gof/Singleton.h>
+#include <cub/base/NullPtr.h>
+#include <cub/gof/State.h>
 
 USING_HAMCREST_NS
 USING_CUB_NS

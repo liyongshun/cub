@@ -1,8 +1,8 @@
 #ifndef CUB_MEMORY_AUTO_MSG_H
 #define CUB_MEMORY_AUTO_MSG_H
 
-#include "cub/mem/MsgNewOperator.h"
-#include "cub/mem/MsgAllocator.h"
+#include <cub/mem/MsgNewOperator.h>
+#include <cub/mem/MsgAllocator.h>
 
 CUB_NS_BEGIN
 

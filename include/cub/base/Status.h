@@ -1,8 +1,8 @@
 #ifndef H5712E60C_DEF5_4A3B_93C0_C074CD80C63B
 #define H5712E60C_DEF5_4A3B_93C0_C074CD80C63B
 
-#include "cub/cub.h"
-#include "cub/base/BaseTypes.h"
+#include <cub/cub.h>
+#include <cub/base/BaseTypes.h>
 
 CUB_NS_BEGIN
 

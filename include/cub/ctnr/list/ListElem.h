@@ -1,8 +1,8 @@
 #ifndef HEAAB628E_761B_4552_BEFF_EE3AAA1F9A18
 #define HEAAB628E_761B_4552_BEFF_EE3AAA1F9A18
 
-#include "cub/cub.h"
-#include "cub/ctnr/list/apr_ring.h"
+#include <cub/cub.h>
+#include <cub/ctnr/list/apr_ring.h>
 
 CUB_NS_BEGIN
 

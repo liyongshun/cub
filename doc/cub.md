@@ -44,7 +44,7 @@ CUB提供了自动安装，编译成功后在build目录下执行`sudo make inst
 CUB中的一些组件使用了C\++11特性（每个组件的介绍中会专门说明），如果你的项目使用了这些组件，请确保你的编译器支持C\++11并且编译选项开启了c\++11。最后，使用CUB的sched组件还需要在你的链接库中增加pthread。
 
 可以尝试运行CUB的测试，看看CUB在你的系统下是否存在错误。
-CUB的测试使用了[magellan](https://github.com:ccup/magellan)，magellan是一款基于C\++11的非常简单优雅的开源xUnit测试框架。下载magellan的源码，按照手册安装后就可以使用了。
+CUB的测试使用了[cut](https://github.com:ccup/cut)，cut是一款基于C\++11的非常简单优雅的开源xUnit测试框架。下载cut的源码，按照手册安装后就可以使用了。
 
 按以下方式执行CUB的测试：
 
@@ -101,7 +101,7 @@ CUB由主要的几个组件组成：
 
 #### 基本类型和状态码
 
-首先在"cub/base/BaseTypes.h"中对基本类型进行了封装，提供了 `U8`，`U16`，`U32`以及`U64`这几种常用的无符号整型，以及`S8`，`S16`，`S32`以及`S64`等几种常用的有符号整型。最后提供了一个针对指针的类型`PTR_VALUE`，用于将地址转为一个无符号整型，经常用在对地址的值进行比较的场合。`PTR_VALUE`会根据当前系统是32位还是64位，自动决定将地址存为`U32`还是`U64`。
+首先在"cub/base/BaseTypes.h>中对基本类型进行了封装，提供了 `U8`，`U16`，`U32`以及`U64`这几种常用的无符号整型，以及`S8`，`S16`，`S32`以及`S64`等几种常用的有符号整型。最后提供了一个针对指针的类型`PTR_VALUE`，用于将地址转为一个无符号整型，经常用在对地址的值进行比较的场合。`PTR_VALUE`会根据当前系统是32位还是64位，自动决定将地址存为`U32`还是`U64`。
 
 ~~~cpp
 // BaseTypes.h
@@ -130,7 +130,7 @@ static bool tryFree(void *p)
 }
 ~~~
 
-"cub/base/Status.h"中定义了CUB的成功和错误码：`CUB_SUCCESS`和`CUB_FAILURE`，另外提供了两个辅助宏：
+"cub/base/Status.h>中定义了CUB的成功和错误码：`CUB_SUCCESS`和`CUB_FAILURE`，另外提供了两个辅助宏：
 
 ~~~cpp
 // Status.h
@@ -149,7 +149,7 @@ if(__CUB_FAILED(map.put(2, 2)))
 
 #### 断言
 
-"cub/base/Assertions.h"提供了各种断言机制。这里的断言都是运行时断言，分为两大类，expect和assert。expect类型的在断言失败后，会用`WARN_LOG`进行输出，而assert类型断言失败后则会用`ERR_LOG`进行错误输出。这两类断言都支持对三种不同对象的判断： 1）对bool是否为true进行判断； 2）对指针有效性进行判断； 3）对函数返回值是否成功进行判断。每一类断言失败后的返回值都支持返回void，bool，错误码，或者自定义返回值。具体见`Assertions.h`文件实现。 断言的使用非常简单，如下实例：
+"cub/base/Assertions.h>提供了各种断言机制。这里的断言都是运行时断言，分为两大类，expect和assert。expect类型的在断言失败后，会用`WARN_LOG`进行输出，而assert类型断言失败后则会用`ERR_LOG`进行错误输出。这两类断言都支持对三种不同对象的判断： 1）对bool是否为true进行判断； 2）对指针有效性进行判断； 3）对函数返回值是否成功进行判断。每一类断言失败后的返回值都支持返回void，bool，错误码，或者自定义返回值。具体见`Assertions.h`文件实现。 断言的使用非常简单，如下实例：
 
 ~~~cpp
 // TransData.h
@@ -165,7 +165,7 @@ Status modify()
 }
 ~~~
 
-"cub/base/static_assert.h"中提供了静态断言`STATIC_ASSERT`。在支持C++11的场景下，`STATIC_ASSERT`被映射成关键字`static_assert`，否则被映射成自定义实现。
+"cub/base/static_assert.h>中提供了静态断言`STATIC_ASSERT`。在支持C++11的场景下，`STATIC_ASSERT`被映射成关键字`static_assert`，否则被映射成自定义实现。
 
 ~~~cpp
 // static_assert.h
@@ -345,7 +345,7 @@ Status put(const KEY& key, const VALUE& value)
 }
 ~~~
 
-"cub/base/EqHelper.h"中定义了一些辅助宏，用于类实现比较运算符。这些辅助宏在你定义了`==`的实现后，会自动扩展出`！=`的实现，在你定义了`==`和`<`的实现后，会自动扩展出其它所有比较运算符的实现。具体用法如下：
+"cub/base/EqHelper.h>中定义了一些辅助宏，用于类实现比较运算符。这些辅助宏在你定义了`==`的实现后，会自动扩展出`！=`的实现，在你定义了`==`和`<`的实现后，会自动扩展出其它所有比较运算符的实现。具体用法如下：
 
 ~~~cpp
 // Complex.h

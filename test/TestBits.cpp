@@ -1,5 +1,5 @@
-#include "magellan/magellan.hpp"
-#include "cub/algo/bits.h"
+#include <cut/cut.hpp"
+#include <cub/algo/bits.h>
 
 USING_HAMCREST_NS
 USING_CUB_NS

@@ -44,7 +44,7 @@ You can also install CUB manually, just copy "cub/include" and "cub/build/src/li
 
 ### Test CUB
 
-To test CUB, you need install [magellan](https://github.com:ccup/magellan) which is an elegant C\++ xUnit framework. Try to intall magellan by following the [magellan tutoral](https://github.com:ccup/magellan/blob/master/README.md)!
+To test CUB, you need install [cut](https://github.com:ccup/cut) which is an elegant C\++ xUnit framework. Try to intall cut by following the [cut tutoral](https://github.com:ccup/cut/blob/master/README.md)!
 
 Following the below instructions to test CUB:
 

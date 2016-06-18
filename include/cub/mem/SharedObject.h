@@ -1,7 +1,7 @@
 #ifndef CUB_MEMORY_SHARED_OBJECT_H
 #define CUB_MEMORY_SHARED_OBJECT_H
 
-#include "cub/cub.h"
+#include <cub/cub.h>
 
 CUB_NS_BEGIN
 

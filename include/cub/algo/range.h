@@ -1,7 +1,7 @@
 #ifndef HA980B189_62DA_454B_B213_0905ED542E61
 #define HA980B189_62DA_454B_B213_0905ED542E61
 
-#include "cub/cub.h"
+#include <cub/cub.h>
 #include <utility>
 #include <algorithm>
 

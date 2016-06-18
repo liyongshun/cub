@@ -1,8 +1,8 @@
 #ifndef CUB_CONCURRENCY_MULTITHREADWRAPPER_H_
 #define CUB_CONCURRENCY_MULTITHREADWRAPPER_H_
 
-#include "cub/base/Assertions.h"
-#include "cub/log/log.h"
+#include <cub/base/Assertions.h>
+#include <cub/log/log.h>
 
 CUB_NS_BEGIN
 

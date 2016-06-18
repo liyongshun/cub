@@ -1,5 +1,5 @@
-#include "magellan/magellan.hpp"
-#include "cub/ctnr/number/RingNumber.h"
+#include <cut/cut.hpp"
+#include <cub/ctnr/number/RingNumber.h>
 
 USING_HAMCREST_NS
 USING_CUB_NS

@@ -1,8 +1,8 @@
 #ifndef HAC57EDDB_4C76_4370_876A_05C7A7318E09
 #define HAC57EDDB_4C76_4370_876A_05C7A7318E09
 
-#include "cub/cub.h"
-#include "cub/utils/Symbol.h"
+#include <cub/cub.h>
+#include <cub/utils/Symbol.h>
 
 CUB_NS_BEGIN
 

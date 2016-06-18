@@ -1,8 +1,8 @@
 #ifndef CUB_STRUCT_WRAPPER__H__
 #define CUB_STRUCT_WRAPPER__H__
 
-#include "cub/cub.h"
-#include "cub/base/StaticAssert.h"
+#include <cub/cub.h>
+#include <cub/base/StaticAssert.h>
 
 CUB_NS_BEGIN
 

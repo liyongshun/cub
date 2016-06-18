@@ -1,5 +1,5 @@
-#include "magellan/magellan.hpp"
-#include "cub/mem/PlainTransData.h"
+#include <cut/cut.hpp"
+#include <cub/mem/PlainTransData.h>
 
 USING_HAMCREST_NS
 USING_CUB_NS

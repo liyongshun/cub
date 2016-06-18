@@ -1,7 +1,7 @@
 #ifndef H4358042D_C5CA_48CF_82A6_05A9B0B3B8EA
 #define H4358042D_C5CA_48CF_82A6_05A9B0B3B8EA
 
-#include "cub/cub.h"
+#include <cub/cub.h>
 #include <string.h>
 
 CUB_NS_BEGIN

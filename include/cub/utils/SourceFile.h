@@ -1,7 +1,7 @@
 #ifndef HC57E2472_2513_4E94_AEC6_067A30876304
 #define HC57E2472_2513_4E94_AEC6_067A30876304
 
-#include "cub/cub.h"
+#include <cub/cub.h>
 #include <string>
 
 CUB_NS_BEGIN

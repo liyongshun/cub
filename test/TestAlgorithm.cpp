@@ -1,6 +1,6 @@
-#include <magellan/magellan.hpp>
-#include "cub/algo/range.h"
-#include "cub/base/StaticAssert.h"
+#include <cut/cut.hpp>
+#include <cub/algo/range.h>
+#include <cub/base/StaticAssert.h>
 #include <type_traits>
 
 USING_HAMCREST_NS

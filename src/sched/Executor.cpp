@@ -1,5 +1,5 @@
-#include "cub/sched/Executor.h"
-#include "cub/algo/loop.h"
+#include <cub/sched/Executor.h>
+#include <cub/algo/loop.h>
 
 CUB_NS_BEGIN
 

@@ -1,9 +1,9 @@
-#include "magellan/magellan.hpp"
-#include "cub/base/BaseTypes.h"
-#include "cub/mem/Placement.h"
-#include "cub/base/Keywords.h"
-#include "cub/dci/Role.h"
-#include "cub/base/NullPtr.h"
+#include <cut/cut.hpp"
+#include <cub/base/BaseTypes.h>
+#include <cub/mem/Placement.h>
+#include <cub/base/Keywords.h>
+#include <cub/dci/Role.h>
+#include <cub/base/NullPtr.h>
 
 USING_HAMCREST_NS
 USING_CUB_NS

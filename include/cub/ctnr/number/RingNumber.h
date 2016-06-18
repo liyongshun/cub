@@ -1,8 +1,8 @@
 #ifndef H0CBC1D58_7346_4567_B281_358825C0504E
 #define H0CBC1D58_7346_4567_B281_358825C0504E
 
-#include "cub/base/BaseTypes.h"
-#include "cub/base/EqHelper.h"
+#include <cub/base/BaseTypes.h>
+#include <cub/base/EqHelper.h>
 
 CUB_NS_BEGIN
 

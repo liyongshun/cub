@@ -1,9 +1,9 @@
 #ifndef H05B2224D_B926_4FC0_A936_97B52B8A98DB
 #define H05B2224D_B926_4FC0_A936_97B52B8A98DB
 
-#include "cub/cub.h"
-#include "cub/base/Default.h"
-#include "cub/base/Config.h"
+#include <cub/cub.h>
+#include <cub/base/Default.h>
+#include <cub/base/Config.h>
 
 CUB_NS_BEGIN
 

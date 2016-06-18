@@ -1,7 +1,7 @@
 #ifndef H05B2224D_B926_4FC1_A936_97B52B8A99DB
 #define H05B2224D_B926_4FC1_A936_97B52B8A99DB
 
-#include "cub/mem/Placement.h"
+#include <cub/mem/Placement.h>
 
 CUB_NS_BEGIN
 

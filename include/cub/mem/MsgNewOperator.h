@@ -1,7 +1,7 @@
 #ifndef CUB_MEMORY_MSG_NEW_H
 #define CUB_MEMORY_MSG_NEW_H
 
-#include "cub/base/Assertions.h"
+#include <cub/base/Assertions.h>
 
 #include <new>
 #include <string.h>

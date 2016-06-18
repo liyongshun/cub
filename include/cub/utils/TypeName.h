@@ -1,7 +1,7 @@
 #ifndef MAMSDLFKE_UIETUOM_3746_JFOIEWNNVJ_38457_NVHDYW
 #define MAMSDLFKE_UIETUOM_3746_JFOIEWNNVJ_38457_NVHDYW
 
-#include "cub/cub.h"
+#include <cub/cub.h>
 #include <string>
 #include <typeinfo>
 

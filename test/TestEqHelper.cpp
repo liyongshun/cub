@@ -1,5 +1,5 @@
-#include "magellan/magellan.hpp"
-#include "cub/base/EqHelper.h"
+#include <cut/cut.hpp"
+#include <cub/base/EqHelper.h>
 
 USING_HAMCREST_NS
 

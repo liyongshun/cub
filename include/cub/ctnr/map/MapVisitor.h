@@ -1,7 +1,7 @@
 #ifndef H0CBC1D58_7346_4F4B_B281_358825C0504E
 #define H0CBC1D58_7346_4F4B_B281_358825C0504E
 
-#include "cub/base/Status.h"
+#include <cub/base/Status.h>
 
 CUB_NS_BEGIN
 

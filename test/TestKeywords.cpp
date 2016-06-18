@@ -1,5 +1,5 @@
-#include "magellan/magellan.hpp"
-#include "cub/base/Keywords.h"
+#include <cut/cut.hpp"
+#include <cub/base/Keywords.h>
 
 USING_HAMCREST_NS
 

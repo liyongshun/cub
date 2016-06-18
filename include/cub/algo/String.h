@@ -1,7 +1,7 @@
 #ifndef SFLJSFA_CLJKSWOR_DASOIWU_47561_CBASDUYWW
 #define SFLJSFA_CLJKSWOR_DASOIWU_47561_CBASDUYWW
 
-#include "cub/utils/TypeName.h"
+#include <cub/utils/TypeName.h>
 #include <sstream>
 #include <vector>
 #include <stdexcept>

@@ -1,6 +1,6 @@
-#include "magellan/magellan.hpp"
-#include "cub/ctnr/map/HashMap.h"
-#include "cub/base/Keywords.h"
+#include <cut/cut.hpp"
+#include <cub/ctnr/map/HashMap.h>
+#include <cub/base/Keywords.h>
 #include <string>
 
 USING_HAMCREST_NS

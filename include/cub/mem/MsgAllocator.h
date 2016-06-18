@@ -1,7 +1,7 @@
 #ifndef CUB_MEMORY_MSG_ALLOCATOR_H
 #define CUB_MEMORY_MSG_ALLOCATOR_H
 
-#include "cub/cub.h"
+#include <cub/cub.h>
 #include <stddef.h>
 
 CUB_NS_BEGIN

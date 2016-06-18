@@ -1,8 +1,8 @@
 #ifndef H441EB5A0_2E97_4187_AA21_FAB5C70470C0
 #define H441EB5A0_2E97_4187_AA21_FAB5C70470C0
 
-#include "cub/base/BaseTypes.h"
-#include "cub/sched/Synchronization.h"
+#include <cub/base/BaseTypes.h>
+#include <cub/sched/Synchronization.h>
 
 #include <condition_variable>
 #include <vector>

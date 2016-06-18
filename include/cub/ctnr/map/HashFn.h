@@ -1,7 +1,7 @@
 #ifndef HEC29B2BD_30CA_438A_B2EB_8309ED632ECA
 #define HEC29B2BD_30CA_438A_B2EB_8309ED632ECA
 
-#include "cub/cub.h"
+#include <cub/cub.h>
 #include <stddef.h>
 
 CUB_NS_BEGIN

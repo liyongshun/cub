@@ -1,7 +1,7 @@
-#include "magellan/magellan.hpp"
-#include "cub/ctnr/list/List.h"
-#include "cub/ctnr/list/ListElem.h"
-#include "cub/base/NullPtr.h"
+#include <cut/cut.hpp"
+#include <cub/ctnr/list/List.h>
+#include <cub/ctnr/list/ListElem.h>
+#include <cub/base/NullPtr.h>
 
 USING_HAMCREST_NS
 USING_CUB_NS

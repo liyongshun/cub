@@ -14,4 +14,4 @@ FILE(GLOB_RECURSE all_files
 *.C)
 
 add_executable(cub-test ${all_files})
-target_link_libraries(cub-test hamcrest magellan options cub)
+target_link_libraries(cub-test hamcrest cut options cub)

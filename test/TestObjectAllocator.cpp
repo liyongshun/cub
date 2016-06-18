@@ -1,6 +1,6 @@
-#include "magellan/magellan.hpp"
-#include "cub/mem/ObjectAllocator.h"
-#include "cub/algo/loop.h"
+#include <cut/cut.hpp"
+#include <cub/mem/ObjectAllocator.h>
+#include <cub/algo/loop.h>
 
 USING_HAMCREST_NS
 USING_CUB_NS

@@ -1,8 +1,8 @@
 #ifndef CUB_MEMORY_SMART_PTR_H
 #define CUB_MEMORY_SMART_PTR_H
 
-#include "cub/dci/Role.h"
-#include "cub/mem/SharedObject.h"
+#include <cub/dci/Role.h>
+#include <cub/mem/SharedObject.h>
 
 CUB_NS_BEGIN
 

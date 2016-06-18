@@ -1,7 +1,7 @@
 #ifndef CUB_STRUCT_OBJECT_H
 #define CUB_STRUCT_OBJECT_H
 
-#include "cub/cub.h"
+#include <cub/cub.h>
 #include <string.h>
 
 CUB_NS_BEGIN

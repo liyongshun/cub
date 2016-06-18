@@ -1,8 +1,8 @@
 #ifndef H29B1191B_457B_4E80_8056_1233626F0A98
 #define H29B1191B_457B_4E80_8056_1233626F0A98
 
-#include "cub/cub.h"
-#include "cub/ctnr/list/apr_ring.h"
+#include <cub/cub.h>
+#include <cub/ctnr/list/apr_ring.h>
 
 CUB_NS_BEGIN
 

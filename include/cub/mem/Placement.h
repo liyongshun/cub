@@ -1,7 +1,7 @@
 #ifndef H05B2224D_B926_4FC0_A123_97B52B8A99DB
 #define H05B2224D_B926_4FC0_A123_97B52B8A99DB
 
-#include "cub/cub.h"
+#include <cub/cub.h>
 
 #include <string.h>
 #include <new>

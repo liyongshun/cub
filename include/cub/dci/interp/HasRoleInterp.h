@@ -1,3 +1,3 @@
-#include "cub/dci/interp/RolesUndef.h"
+#include <cub/dci/interp/RolesUndef.h>
 
 #define __HAS_ROLE(p_role) HAS_ROLE(p_role)

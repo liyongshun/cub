@@ -1,7 +1,7 @@
 #ifndef H29B1191B_457B_4E80_8056_4573626F0A98
 #define H29B1191B_457B_4E80_8056_4573626F0A98
 
-#include "cub/base/BaseTypes.h"
+#include <cub/base/BaseTypes.h>
 
 CUB_NS_BEGIN
 

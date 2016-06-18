@@ -12,7 +12,7 @@
  *
  */
 
-#include "cub/cub.h"
+#include <cub/cub.h>
 
 CUB_NS_BEGIN
 

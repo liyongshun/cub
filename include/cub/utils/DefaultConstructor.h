@@ -1,8 +1,8 @@
 #ifndef HF6201AF3_C3A9_47FC_A3A6_1C91D7F33FEC
 #define HF6201AF3_C3A9_47FC_A3A6_1C91D7F33FEC
 
-#include "cub/base/BaseTypes.h"
-#include "cub/mem/Placement.h"
+#include <cub/base/BaseTypes.h>
+#include <cub/mem/Placement.h>
 
 CUB_NS_BEGIN
 
