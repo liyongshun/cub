@@ -1,4 +1,4 @@
-# CUB : C++ Unified Base
+# CUB : C++ Unified Base Library
 
 ***
 
