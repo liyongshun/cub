@@ -1,5 +1,5 @@
-#include "magellan/magellan.hpp"
-#include "cub/ctnr/array/Array.h"
+#include <cut/cut.hpp>
+#include <cub/ctnr/array/Array.h>
 
 USING_HAMCREST_NS
 USING_CUB_NS
